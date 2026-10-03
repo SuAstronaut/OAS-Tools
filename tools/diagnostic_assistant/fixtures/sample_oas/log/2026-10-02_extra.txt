@@ -1,0 +1,10 @@
+2026-10-02 18:00:00.000 | script.py:0150 | INFO | Wait until 2026-10-02 18:05:00 for task `ExampleTask`
+2026-10-02 18:00:00.100 | game_ui.py:0240 | INFO | [UI] page_main
+2026-10-02 18:00:01.000 | control.py:0299 | INFO | Click (10, 20) @ I_HOLD 0.8
+2026-10-02 18:00:02.000 | control.py:0330 | INFO | minitouch Swipe (10, 20) -> (30, 40), 0.2
+2026-10-02 18:00:03.000 | control.py:0433 | INFO | Drag (30, 40) -> (50, 60)
+2026-10-02 18:00:04.000 | base_task.py:0469 | INFO | Wait until I_TARGET position stable
+2026-10-02 18:00:05.000 | base_task.py:0497 | WARNING | Wait until pos stable(I_TARGET) timeout
+2026-10-02 18:00:06.000 | arbitrary.py:0001 | INFO | unrecognized synthetic message
+2026-10-02 18:00:07.000 | game_ui.py:0479 | INFO | Page switch: page_main ->
+    page_target

@@ -1,0 +1,6 @@
+2026-10-02 19:02:40.976 | logger.py:0557 | INFO | [UI] page_main
+2026-10-02 19:02:41.000 | unrelated.py:0123 | INFO | [UI] page_fake
+2026-10-02 19:02:41.100 | logger.py:0557 | INFO | [UI] page_main extra
+2026-10-02 19:02:41.200 | logger.py:0557 | INFO | locals: [UI] page_fake
+2026-10-02 19:02:42.000 | game_ui.py:0400 | INFO | Page switch: page_main -> page_bondling_fairyland
+2026-10-02 19:02:43.000 | control.py:0204 | INFO | Click (100, 200) @ I_EXAMPLE

@@ -1,0 +1,2 @@
+2026-10-02 17:00:00.000 | script.py:0700 | INFO | Scheduler: Start task `BetaTask`
+2026-10-02 17:00:01.000 | game_ui.py:0240 | INFO | [UI] page_beta

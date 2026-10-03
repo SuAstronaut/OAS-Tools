@@ -1,0 +1,16 @@
+════════════════════════════════════════
+─────────────── START ──────────────────
+════════════════════════════════════════
+2026-10-02 09:00:00.000 | script.py:0700 | INFO | Scheduler: Start task `DailyAltAcc`
+2026-10-02 09:00:00.010 | script.py:0450 | INFO | module_path: D:\SYNTHETIC\OAS\tasks\DailyAltAcc\script_task.py, module_name: script_task
+2026-10-02 09:00:00.020 | stat_log.py:0030 | INFO | [STAT] {"ev":"run_start"}
+2026-10-02 09:00:00.030 | stat_log.py:0030 | INFO | [STAT] {"ev":"acc_start","acc":"ANON_A","char":"CHAR_A","svr":"REGION_A"}
+2026-10-02 09:00:00.040 | stat_log.py:0030 | INFO | [STAT] {"ev":"task_start","task":"ExampleTask"}
+2026-10-02 09:00:00.050 | game_ui.py:0240 | INFO | [UI] page_main
+2026-10-02 09:00:01.000 | control.py:0204 | INFO | Click (100, 200) @ I_EXAMPLE
+2026-10-02 09:00:02.000 | game_ui.py:0476 | INFO | Page arrived page_example
+2026-10-02 09:00:03.000 | stat_log.py:0030 | INFO | [STAT] {"ev":"task_end","task":"ExampleTask","ok":true,"dur":2.96}
+2026-10-02 09:00:03.010 | stat_log.py:0030 | INFO | [STAT] {"ev":"acc_end"}
+2026-10-02 09:00:03.020 | stat_log.py:0030 | INFO | [STAT] {"ev":"run_end"}
+2026-10-02 09:00:03.030 | script.py:0400 | INFO | TaskEnd final task name: DailyAltAcc
+2026-10-02 09:00:03.040 | script.py:0704 | INFO | Scheduler: End task `DailyAltAcc`

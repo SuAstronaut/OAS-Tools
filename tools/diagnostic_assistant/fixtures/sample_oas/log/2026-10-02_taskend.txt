@@ -1,0 +1,6 @@
+2026-10-02 12:00:00.000 | script.py:0700 | INFO | Scheduler: Start task `ExampleTask`
+2026-10-02 12:00:00.100 | stat_log.py:0030 | INFO | [STAT] {"ev":"task_start","task":"NestedTask"}
+2026-10-02 12:00:01.000 | stat_log.py:0030 | INFO | [STAT] {"ev":"error","task":"NestedTask","etype":"GamePageUnknownError","emsg":"SYNTHETIC ONLY"}
+2026-10-02 12:00:01.100 | stat_log.py:0030 | INFO | [STAT] {"ev":"task_end","task":"NestedTask","ok":false}
+2026-10-02 12:00:02.000 | script.py:0400 | INFO | TaskEnd final task name: ExampleTask
+2026-10-02 12:00:02.100 | script.py:0704 | INFO | Scheduler: End task `ExampleTask`

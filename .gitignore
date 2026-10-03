@@ -1,0 +1,30 @@
+# Runtime settings and configuration backups (keep settings.example.json).
+settings.json
+backup/
+output/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+*.tmp
+.mirror-test-tmp/
+
+# Local diagnostic output. Synthetic reports may use the explicit namespace below.
+/tools/diagnostic_assistant/reports/*
+!/tools/diagnostic_assistant/reports/synthetic/
+!/tools/diagnostic_assistant/reports/D1_synthetic*.md
+!/tools/diagnostic_assistant/reports/D1_synthetic*.json
+
+# Real click acceptance/output; allow a separate synthetic example namespace.
+/tools/click_analyzer/真实日志验收.json
+/tools/click_analyzer/examples/*
+!/tools/click_analyzer/examples/synthetic/
+
+# Historical tools and embedded repositories must never enter this mirror.
+OAS_local_patch/
+OAS_patch_installer/
+OAS_coop_statistics/
+.candidate/
+
+.DS_Store
+Thumbs.db

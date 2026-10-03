@@ -1,0 +1,8 @@
+2026-10-02 11:00:00.000 | script.py:0700 | INFO | Scheduler: Start task `ExampleTask`
+2026-10-02 11:00:00.100 | game_ui.py:0240 | INFO | [UI] page_main
+2026-10-02 11:00:01.000 | control.py:0204 | INFO | Click (10, 20) @ I_EXAMPLE
+2026-10-02 11:00:01.100 | script.py:0550 | ERROR | synthetic backend failure
+Traceback (most recent call last):
+  File "SYNTHETIC/control.py", line 220, in click
+    backend_send()
+ConnectionError: synthetic backend unavailable

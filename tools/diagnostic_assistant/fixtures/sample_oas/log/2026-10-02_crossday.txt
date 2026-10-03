@@ -1,0 +1,8 @@
+2026-10-01 23:59:59.000 | script.py:0700 | INFO | Scheduler: Start task `ExampleTask`
+2026-10-01 23:59:59.100 | game_ui.py:0240 | INFO | [UI] page_main
+════════════════════════════════════════
+─────────────── START ──────────────────
+════════════════════════════════════════
+2026-10-02 00:00:00.000 | logger.py:0275 | INFO | Log file rolled over: 2026-10-01 -> 2026-10-02
+2026-10-02 00:00:01.000 | control.py:0204 | INFO | Click (10, 20) @ I_EXAMPLE
+2026-10-02 00:00:02.000 | script.py:0704 | INFO | Scheduler: End task `ExampleTask`

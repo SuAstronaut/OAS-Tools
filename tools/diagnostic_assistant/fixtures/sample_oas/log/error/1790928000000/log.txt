@@ -1,0 +1,2 @@
+2026-10-02 16:00:00.000 | game_ui.py:0240 | INFO | [UI] page_package_only
+2026-10-02 16:00:01.000 | device.py:0100 | ERROR | GameStuckError: synthetic wait exceeded

@@ -1,0 +1,6 @@
+2026-10-02 10:00:00.000 | script.py:0700 | INFO | Scheduler: Start task `ExampleTask`
+2026-10-02 10:00:00.100 | game_ui.py:0429 | INFO | Current page: page_main. Following shortest path:
+2026-10-02 10:00:00.110 | game_ui.py:0431 | INFO | page_main -> page_target
+2026-10-02 10:00:00.200 | game_ui.py:0479 | INFO | Page switch: page_main -> page_target
+2026-10-02 10:00:00.210 | game_ui.py:0487 | INFO | Wait appear and operate I_NAVIGATE on page_main
+2026-10-02 10:00:01.000 | control.py:0204 | INFO | Click (10, 20) @ I_NAVIGATE
